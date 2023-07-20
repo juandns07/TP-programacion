@@ -13,7 +13,7 @@ form.addEventListener("submit", async (event) => {
 	};
 
 	const response = await axios.post(
-		"http://localhost:3000/api/users/create",
+		"https://tp-programacion2.onrender.com/api/users/create",
 		data
 	);
 
